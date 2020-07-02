@@ -48,7 +48,7 @@ export class PlanillaComponent implements OnInit {
       cursada : alumno.cursada
     }
 
-    this.router.navigate(['/crear-persona', alumno]);
+    this.router.navigate(['/alumno-component', alumno]);
     debugger;	
   }
 

@@ -19,10 +19,14 @@ export class AlumnoComponent implements OnInit {
   alumno : any;
   alumnoForm : FormGroup;
 
+  valorElegido: string;
+
+
   materias: Materia[] = [
-    {value: 'mongo-0', viewValue: 'MongoDB'},
-    {value: 'java-1', viewValue: 'Javascript'},
-    {value: 'node-2', viewValue: 'NodeJS'}
+    { value: 'mongo-0', viewValue: 'MongoDB' },
+    { value: 'java-1', viewValue: 'Javascript' },
+    { value: 'node-2', viewValue: 'NodeJS' },
+    { value: 'express-3', viewValue: 'ExpressJS' }
   ];
 
   constructor(private route: ActivatedRoute, private fb: FormBuilder, private router: Router) { }
@@ -50,9 +54,9 @@ export class AlumnoComponent implements OnInit {
     });
   }
 
-  enviarDatos(){
+  enviar(){
     let alumnoTemp : Alumno = this.alumnoForm.value;
-    this.router.navigate(['planilla', alumnoTemp]);
+    this.router.navigate(['planilla-component', alumnoTemp]);
     debugger;
   };
 

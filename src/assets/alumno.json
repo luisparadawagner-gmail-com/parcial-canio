@@ -1,6 +1,6 @@
 [   
-    { "nombre": "maría", "apellido": "rivarola", "edad": 17, "materia": "MongoDB", "añoCursada": "Segundo" },
-    { "nombre": "roberto", "apellido": "carlos", "edad": 37, "materia": "Javascript", "añoCursada": "Primero" },
-    { "nombre": "julio", "apellido": "iglesias", "edad": 59, "materia": "NodeJS", "añoCursada": "Tercero" },
-    { "nombre": "giemena", "apellido": "gutierrez", "edad": 29, "materia": "ExpressJS", "añoCursada": "Tercero" }        
+    { "nombre": "maría", "apellido": "rivarola", "edad": 17, "materia": "MongoDB", "cursada": "Segundo" },
+    { "nombre": "roberto", "apellido": "carlos", "edad": 37, "materia": "Javascript", "cursada": "Primero" },
+    { "nombre": "julio", "apellido": "iglesias", "edad": 59, "materia": "NodeJS", "cursada": "Tercero" },
+    { "nombre": "gimena", "apellido": "gutierrez", "edad": 29, "materia": "ExpressJS", "cursada": "Tercero" }        
 ]
